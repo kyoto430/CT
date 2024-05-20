@@ -959,7 +959,7 @@ img {
   .container-red {
     padding: 60px 40px;
   }
-  
+
   .advantages__list {
     display: grid;
     grid-template-columns: min-content min-content;
@@ -991,7 +991,7 @@ img {
   .container-red {
     padding: 60px 40px;
   }
-  
+
   .advantages__list {
     grid-template-columns: 1fr;
   }
