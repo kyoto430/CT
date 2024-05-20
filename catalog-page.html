@@ -18,15 +18,15 @@
 
 <body>
   <header class="header container-xl">
-    <div class="header__info">
+    <div class="header__info header-white">
       <div class="container">
         <div class="header__contacts">
-          <a href="mailto:galeleyleo@gmail.com" class="header__contacts-item">
-            <img class="header__contacts-icon" src="./assets/images/icons/icon-mail.svg" alt="icon-mail">
+          <a href="mailto:galeleyleo@gmail.com" class="header__contacts-item text-black">
+            <img class="header__contacts-icon" src="./assets/images/icons/icon-mail-black.svg" alt="icon-mail">
             <span class="header__contacts-text">galeleyleo@gmail.com</span>
           </a>
-          <a href="tel:+7(951)490-28-80" class="header__contacts-item">
-            <img class="header__contacts-icon" src="./assets/images/icons/icon-phone.svg" alt="icon-phone">
+          <a href="tel:+7(951)490-28-80" class="header__contacts-item text-black">
+            <img class="header__contacts-icon" src="./assets/images/icons/icon-mail-phone.svg" alt="icon-phone">
             <span class="header__contacts-text">+7 (951) 490-28-80</span>
           </a>
         </div>
@@ -40,7 +40,7 @@
         </div>
       </div>
     </div>
-    <div class="header__container container">
+    <div class="header__container header__container-borders container">
       <a class="header__logo" href="./index.html">
         <img src="./assets/images/logo.png" alt="logo CT">
       </a>
@@ -278,32 +278,47 @@
     </div>
   </header>
   <main class="main container-xl">
-    <section class="preview container-xl">
-      <div class="preview__top">
+    <section class="preview container-white container-xl ">
+      <div class="preview__top preview__catalog">
         <div class="container">
-          <div class="preview__wrapper">
-            <h1 class="preview__title">Системотехника ЮГ - инжиниринговая
-              компания полного цикла</h1>
+          <div class="preview__wrapper-catalog">
+            <h1 class="preview__title text-black">Строительная опалубка, <br>
+              строительные леса</h1>
             <div class="preview__wrapper-text">
-              <p class="preview__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis lectus mi,
+              <p class="preview__text text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis
+                lectus mi,
                 ut ornare risus
                 ultrices quis. Cras nisi sapien, mattis dapibus malesuada ac, sollicitudin sit amet nisi. Suspendisse
                 rhoncus tincidunt magna sed imperdiet</p>
               <a href="#" class="preview__link">
-                <span class="preview__link-text">Перейти к каталогу</span>
-                <img class="preview__link-icon" src="./assets/images/icons/icon-arrow-min-white.svg" alt="icon-arrow">
+                <span class="preview__link-text text-black">Перейти к каталогу</span>
+                <img class="preview__link-icon" src="./assets/images/icons/icon-arrow-min-black-up.svg"
+                  alt="icon-arrow">
               </a>
             </div>
           </div>
+          <div class="preview__cards">
+            <div class="preview__card">
+              <img class="preview__card-img" src="./assets/images/catalog/1/01.jpg" alt="01">
+              <span class="preview__card-text">Клиновые леса</span>
+            </div>
+            <div class="preview__card">
+              <img class="preview__card-img" src="./assets/images/catalog/1/01.jpg" alt="02">
+              <span class="preview__card-text">Клиновые леса</span>
+            </div>
+            <div class="preview__card">
+              <img class="preview__card-img" src="./assets/images/catalog/1/02.jpg" alt="03">
+              <span class="preview__card-text">Оцинкованные леса</span>
+            </div>
+            <div class="preview__card">
+              <img class="preview__card-img" src="./assets/images/catalog/1/02.jpg" alt="04">
+              <span class="preview__card-text">Оцинкованные леса</span>
+            </div>
+          </div>
         </div>
-        <picture>
-          <source media="(max-width: 375px)" srcset="./assets/images/header-img-mob.jpg">
-          <source media="(max-width: 998px)" srcset="./assets/images/header-img-tablet.jpg">
-          <img class="preview__img" src="./assets/images/header-img.jpg" alt="preview-img">
-        </picture>
       </div>
     </section>
-    <section class="advantages container-xl">
+    <section class="advantages container-red container-xl">
       <div class="container">
         <ul class="advantages__list">
           <li class="advantages__list-item">
@@ -326,90 +341,11 @@
         </ul>
       </div>
     </section>
-    <section class="partners container-xl">
-      <div class="container">
-        <div class="partners__row">
-          <h2 class="subtitle">
-            Наши партнеры
-          </h2>
-          <div class="custom__slider-nav">
-            <div class="slider__btn-prev-1"></div>
-            <div class="slider__btn-next-1"></div>
-          </div>
-        </div>
-        <!-- SLIDER -->
-        <div class="partners__slider swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="partners__slider-item">
-                <a href="#" class="slider__link">
-                  <img class="custom__slider-img" src="./assets/images/company/icon-company-01.svg" alt="slider img">
-                </a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="partners__slider-item">
-                <a href="#" class="slider__link">
-                  <img class="custom__slider-img" src="./assets/images/company/icon-company-01.svg" alt="slider img">
-                </a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="partners__slider-item">
-                <a href="#" class="slider__link">
-                  <img class="custom__slider-img" src="./assets/images/company/icon-company-01.svg" alt="slider img">
-                </a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="partners__slider-item">
-                <a href="#" class="slider__link">
-                  <img class="custom__slider-img" src="./assets/images/company/icon-company-01.svg" alt="slider img">
-                </a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="partners__slider-item">
-                <a href="#" class="slider__link">
-                  <img class="custom__slider-img" src="./assets/images/company/icon-company-01.svg" alt="slider img">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination partners-slider__pagination"></div>
-        </div>
-        <!-- SLIDER END -->
-      </div>
-    </section>
-    <section class="description container-xl" id="about">
-      <div class="container">
-        <h2 class="description__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis lectus mi,
-          ut
-          ornare risus ultrices quis. Цитата какая-нибудь, характеризующая принципы компании.</h2>
-      </div>
-      <div class="description__img"></div>
-      <div class="container">
-        <div class="description__wrapper-text">
-          <p class="description__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis lectus mi, ut ornare risus ultrices
-            quis. Cras nisi sapien, mattis dapibus malesuada ac, sollicitudin sit amet nisi. Suspendisse rhoncus
-            tincidunt
-            magna sed imperdiet
-          </p>
-          <p class="description__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis lectus mi, ut ornare risus ultrices
-            quis. Cras nisi sapien, mattis dapibus malesuada ac, sollicitudin sit amet nisi. Suspendisse rhoncus
-            tincidunt
-            magna sed imperdiet
-          </p>
-        </div>
-      </div>
-    </section>
     <section class="trust container-xl" id="trust">
       <div class="container">
         <div class="trust__row">
           <h2 class="subtitle">
-            Нам доверились
+            Наши партнеры
           </h2>
           <div class="custom__slider-nav">
             <div class="slider__btn-prev-2"></div>
